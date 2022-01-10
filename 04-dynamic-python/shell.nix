@@ -8,7 +8,7 @@ pkgs.mkShell {
     # keep this line if you use bash
     pkgs.bashInteractive
   ];
-  shellHook = ''
-    wget https://raw.githubusercontent.com/thefenriswolf/FutureLab/main/FutureLab.ipynb
-  '';
+  #shellHook = ''
+  #  wget https://raw.githubusercontent.com/thefenriswolf/FutureLab/main/FutureLab.ipynb
+  #'';
 }
