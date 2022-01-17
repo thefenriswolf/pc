@@ -1,5 +1,5 @@
 default:
-	clang main.c -o demo
+	clang -Wall -Wextra main.c -o demo
 clean:
 	rm *.i demo *.ll *.s *.o *.out
 preprocessor:
