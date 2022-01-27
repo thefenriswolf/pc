@@ -2,14 +2,13 @@
 
 pkgs.mkShell {
   buildInputs = [
-    pkgs.clang_13
-    pkgs.clang-tools
-    pkgs.gnumake
-    pkgs.nano
-    pkgs.man-pages
-    pkgs.man
+    pkgs.racket
 
     # keep this line if you use bash
     pkgs.bashInteractive
   ];
+  #shellHook = ''
+  #  scheme
+  #'';
+
 }
